@@ -1,0 +1,5 @@
+I have considered object oriented programming design principles in three main ways: the first of which is in the format of how that map is stored, as the map is stored as a 2d array of classes which contain two classes. I have chosen to construct the map like this as it allows for all the different things on the map to exist separately from each other whilst allowing all interactions to be done through the Space class which whilst slightly increasing the amount of code needed as getters and setters are required, it does satisfy the principles of encapsulation and abstraction.
+
+The second way I have utilized OOP principles is in the inheritance of the bot and player classes. I have done this as they have similar functions and properties allowing the agent superclass to be a suitable super class for the bot and player subclasses.
+
+The third main way I considered OOP principles is in the separation of the Main class and the GamePlay class; allowing the game play to be considered away from the Main class fulfills encapsulation and abstraction as Main has know idea how Map works and communicates largely through GamePlay.
